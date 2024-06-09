@@ -51,13 +51,13 @@ const GridSlider = () => {
         </div>
       </div>
       <button
-        className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-white text-blue-600  rounded-full"
+        className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-transparent text-blue-600  rounded-full"
         onClick={prevSlide}
       >
         <ChevronLeft className="w-[64px] h-[61px]" />
       </button>
       <button
-        className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-white text-blue-600 rounded-full "
+        className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-transparent text-blue-600 rounded-full "
         onClick={nextSlide}
       >
         <ChevronRight className="w-[64px] h-[61px] " />
