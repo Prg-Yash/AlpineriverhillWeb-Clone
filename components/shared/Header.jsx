@@ -12,16 +12,17 @@ import { MdPhotoLibrary } from "react-icons/md";
 import Link from "next/link";
 import React from "react";
 import { FaHome } from "react-icons/fa";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
-    <header className="bg-[#fb3] px-[10px] py-[15px]">
+    <header className="bg-[#fb3] px-[10px] py-[15px] ">
       <div className="container flex justify-between gap-20 items-center">
         <Link href="/" className="flex items-center">
           <Image src="/logo.png" width={80} height={56.7} alt="Logo" />
           <h1 className="text-[20px] text-white ml-2">ALPINE RIVERHILL</h1>
         </Link>
-        <div className="flex gap-1 items-center pr-0">
+        <div className="lg:flex gap-1 items-center pr-0 hidden ">
           <Link href="/about" className="flex items-center p-2 ">
             <FaHome className="mr-2 text-white text-lg w-[20px] h-5" />
             <h2 className="text-white font-medium">Home</h2>
@@ -56,6 +57,9 @@ const Header = () => {
 
             <h2 className="text-white font-medium"> Contact-Us</h2>
           </Link>
+        </div>
+        <div className="lg:hidden text-white  items-center">
+          <MobileNav className="" />
         </div>
       </div>
     </header>

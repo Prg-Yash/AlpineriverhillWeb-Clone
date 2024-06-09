@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "../components/shared/Header";
 // import Header from "@/components/shared/Header";
 // import Footer from "@/components/shared/Footer";
-
+import MobileNav from "../components/shared/MobileNav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
         <div>
           <div>
             <Header />
+            {/* <MobileNav /> */}
           </div>
           {children}
           <div>{/* <Footer/> */}</div>
