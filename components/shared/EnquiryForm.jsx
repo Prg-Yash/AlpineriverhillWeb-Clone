@@ -4,7 +4,7 @@ import { FaPaperPlane } from "react-icons/fa";
 const EnquiryForm = () => {
   return (
     <div
-      className="relative h-screen bg-cover bg-center py-[100%] md:py-[25%]"
+      className="relative h-screen bg-cover bg-center text-xs my-[20px] py-[100%] leading-normal md:py-[25%]"
       style={{ backgroundImage: "url('/bg.jpg')" }}
     >
       <div className="absolute inset-0 flex flex-col items-center justify-center  ">
