@@ -342,3 +342,24 @@ export const carouselContent = [
     },
   ],
 ];
+
+export const cardContent = [
+  {
+    id: 1,
+    title: "Loyalty Programme:",
+    description:
+      "At Alpine Riverhill, we appreciate loyalty as much as you do. To acknowledge the same, we offer a discount of ₹2,000 on your next booking with us. No questions asked. ",
+  },
+  {
+    id: 2,
+    title: " Referral Programme:",
+    description:
+      "Loved your stay at Alpine Riverhill? Refer us to your family and friends and get a flat discount of ₹2,000 on your next booking with us.",
+  },
+  {
+    id: 3,
+    title: "Let us serve you longer:",
+    description:
+      "Book for a minimum of 3 nights and get a whooping 25% discount on your reservation.",
+  },
+];

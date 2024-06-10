@@ -27,11 +27,11 @@ const Header = () => {
             <FaHome className="mr-2 text-white text-lg w-[20px] h-5" />
             <h2 className="text-white font-medium">Home</h2>
           </Link>
-          <Link href="/about" className="flex items-center p-2">
+          <Link href="/gallery" className="flex items-center p-2">
             <MdPhotoLibrary className="mr-2 text-white text-lg w-[20px] h-5 " />
             <h2 className="text-white font-medium">Gallery</h2>
           </Link>
-          <Link href="/" className="flex items-center p-2">
+          <Link href="/covid" className="flex items-center p-2">
             <FaVirus className="mr-2 text-white text-lg w-[20px] h-5 " />
             <h2 className="text-white font-medium">
               {" "}
