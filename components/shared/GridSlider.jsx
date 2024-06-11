@@ -33,7 +33,7 @@ const GridSlider = () => {
   };
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto">
+    <div className="relative w-full max-w-4xl mx-auto py-10">
       <div className="overflow-hidden relative h-[540px]">
         <div
           className="flex transition-transform duration-300 ease-out"
@@ -61,7 +61,7 @@ const GridSlider = () => {
                       {block.title}
                     </h3>
                     <hr className="w-[95px] mx-auto" />
-                    <p className="text-[11.5px] text-gray-600">
+                    <p className="text-[11.5px] text-gray-600 pb-5">
                       {block.description}
                     </p>
                   </div>

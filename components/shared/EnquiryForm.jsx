@@ -17,8 +17,8 @@ const EnquiryForm = () => {
           </p>
         </div>
 
-        <div className="bg-transparent border p-6 shadow-lg w-full  md:w-[700.3px] ">
-          <form className="text-white ">
+        <div className="bg-transparent border p-6 shadow-lg w-full  md:w-[700.3px]">
+          <form className="text-white">
             <h1 className="text-center mb-4 text-[1.5rem]">Enquiry Form</h1>
             <div className="grid grid-cols-1 gap-4 mb-4">
               <div>
@@ -86,12 +86,12 @@ const EnquiryForm = () => {
                 placeholder="Type your message here..."
               ></textarea>
             </div>
-            <div className=" flex  justify-center">
+            <div className="flex  justify-center">
               <button
                 type="submit"
-                className=" flex items-center gap-2 py-3 text-sm px-4 bg-[#fb3] font-normal  text-white shadow-md hover:bg-orange-700 focus:outline-none"
+                className="flex items-center gap-2 py-3 text-sm px-4 bg-[#fb3] font-normal  text-white shadow-md  focus:outline-none"
               >
-                <FaPaperPlane className="" />
+                <FaPaperPlane />
                 SEND ENQUIRY
               </button>
             </div>
