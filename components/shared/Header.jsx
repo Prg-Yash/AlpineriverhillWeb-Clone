@@ -23,7 +23,7 @@ const Header = () => {
           <h1 className="text-[20px] text-white ml-2">ALPINE RIVERHILL</h1>
         </Link>
         <div className="lg:flex gap-1 items-center pr-0 hidden ">
-          <Link href="/about" className="flex items-center p-2 ">
+          <Link href="/" className="flex items-center p-2 ">
             <FaHome className="mr-2 text-white text-lg w-[20px] h-5" />
             <h2 className="text-white font-medium">Home</h2>
           </Link>
@@ -38,11 +38,11 @@ const Header = () => {
               COVID-19 Safety Practices
             </h2>
           </Link>
-          <Link href="/about" className="flex items-center p-2">
+          <Link href="/offers" className="flex items-center p-2">
             <FaCrown className="mr-2 text-white text-lg w-[20px] h-5 " />
             <h2 className="text-white font-medium">Offers</h2>
           </Link>
-          <Link href="/about" className="flex items-center p-2">
+          <Link href="/testimonials" className="flex items-center p-2">
             <FaQuoteLeft className="mr-2 text-white text-lg w-[20px] h-5" />
 
             <h2 className="text-white font-medium"> Testimonials</h2>
@@ -52,7 +52,7 @@ const Header = () => {
 
             <h2 className="text-white font-medium">About-Us</h2>
           </Link>
-          <Link href="/about" className="flex items-center p-2">
+          <Link href="/contact" className="flex items-center p-2">
             <FaPhone className="mr-2 text-white text-lg w-[20px] h-5" />
 
             <h2 className="text-white font-medium"> Contact-Us</h2>

@@ -69,6 +69,7 @@ import {
   Film,
   UtensilsCrossed,
 } from "lucide-react";
+import exp from "constants";
 
 export const carouselContent = [
   [
@@ -361,5 +362,130 @@ export const cardContent = [
     title: "Let us serve you longer:",
     description:
       "Book for a minimum of 3 nights and get a whooping 25% discount on your reservation.",
+  },
+];
+
+export const gridContent = [
+  {
+    id: 1,
+    title: "Teamwork",
+    description:
+      "We recognize that superlative performance is always the result of teamwork.",
+  },
+  {
+    id: 2,
+    title: "Ownership",
+    description: "We always take responsibility for our actions.",
+  },
+  {
+    id: 3,
+    title: "Respect and Empathy",
+    description:
+      "We exhibit respect and concern for colleagues, guests and partners.",
+  },
+  {
+    id: 4,
+    title: "Integrity",
+    description:
+      "We always maintain the highest standards of fairness and transparency in all our dealings.",
+  },
+  {
+    id: 5,
+    title: "Spirited Fun",
+    description:
+      "We create an exciting and spirited work environment encouraging our colleagues to think freely.",
+  },
+  {
+    id: 6,
+    title: "Excellence",
+    description: "We always drive excellence in what we do.",
+  },
+  {
+    id: 7,
+    title: "Honesty and Integrity ",
+    description:
+      "At Alpine Riverhill, we inspire fairness and trust in our day-to-day dealings with our stakeholders by saying what we mean and synchronizing our words and actions. We take full accountability for our actions.",
+  },
+  {
+    id: 8,
+    title: "Interactive yet responsible communication  ",
+    description:
+      "We maintain open communication with each other and consciously communicate in a pleasant manner in order to have a positive impact. Communication at Alpine Riverhill is about effectively choosing one’s words, stating one’s purpose and expected outcome, and being accountable and assuming responsibility for the impact and outcome of one’s communication.",
+  },
+  {
+    id: 9,
+    title: "Devotion to Duty",
+    description:
+      "At Alpine Riverhill, we commit ourselves wholeheartedly towards achieving a common goal reflecting in our actions. We have an objective of building a sense of pride and ownership amongst all the employees. This initiative is about alignment of goals at individual and organizational level, greater col-lg-10 culture.",
+  },
+  {
+    id: 10,
+    title: "Minimizing Waste",
+    description:
+      "At Alpine Riverhill, we constantly endeavour to adopt practices that reduce wastage by dispensing with non-value-added activities.",
+  },
+  {
+    id: 11,
+    title: "Respect for Individuals",
+    description:
+      "At Alpine Riverhill, we nurture a transparent and trusting culture by treating every employee with dignity. We also value our employees and endeavour to develop and reward performance. We believe every individual working with us possesses certain strengths and the organization should strive to leverage them.",
+  },
+];
+
+export const testimonialsContent = [
+  {
+    id: 1,
+    content:
+      " A stay at Alpine Riverhill let's you experience Lonavala's natural beauty in an intimate environment. One of Lonavala's most sought-after villas, a stay at Alpine Riverhill promises all the comforts of home and the luxury of a hotel. Located amongst greenery, this grand space is replete with amenities. Here, you can spend your days enjoying the soothing mountain breeze as the on-site staff attend to your needs. As the sun sets, take a stroll by the pool, where you can enjoy mouth-watering grilled tandoori dishes.",
+  },
+  {
+    id: 2,
+    content:
+      " For those seeking serenity, Alpine Riverhill offers a perfect location peacefully nestled in a cozy environment. The villa's natural beauty and five star amenities make it an unforgettable place to call your own. Each morning, enjoy the birds chirping while savoring your breakfast.",
+  },
+  {
+    id: 3,
+    content:
+      "  It is almost too easy to fall in love with the warm and welcoming ambience, great food, hospitality and aminities. While you'll have no shortage of options, I recommend the tasty barbecue and sheesha by the poolside. Combine everything Alpine Riverhill has to offer and you will have the recipe for an ideal vacation for family and friends alike. ",
+  },
+  {
+    id: 4,
+    content:
+      " You would never want to leave this tranquil getaway overlooking the mesmerizing tree cover. Alpine Riverhill, a luxury boutique villa, embodies peace and serenity. It's elegant design blends into the surrounding vistas and landscapes. Enjoy the contemporary comforts of this villa with hours spent relaxing on sun loungers and diving into the refreshing waters of your own private swimming pool. ",
+  },
+  {
+    id: 5,
+    content:
+      "Whether it's your first time visiting or hundredth, Alpine Riverhill never fails to impress. From the library to the barbeque and bonfire, from hookah to the games and the music system, there's somethWhether it's your first time visiting or hundredth, Alpine Riverhill never fails to impress. From the library to the barbeque and bonfire, from hookah to the games and bonfire, there's something here for everyone.                    ",
+  },
+  {
+    id: 6,
+    content:
+      "Alpine Riverhill is the ideal destination for your next family reunion. Tucked away behind lush greenery and trees, this villa offers the perfect balance of privacy and accessibility.                    ",
+  },
+  {
+    id: 7,
+    content:
+      "Pool parties, barbeque, bonfire and sheesha - all of the above are on the menu at this luxe villa in Lonavla. A stay here is about decadent leisure. It's hard to imagine a better vacation without Alpine RiverHill.                    ",
+  },
+  {
+    id: 8,
+    content:
+      " More than a vacation rental, Alpine Riverhill feels like a luxirious hotel. We enjoyed the resort-like amenities and hospitality complimented by the surrounding lush greenery.                    ",
+  },
+  {
+    id: 9,
+    content:
+      "  Warning: you may never want to leave this jaw-dropping villa.Alpine Riverhill is the ideal retreat when in Lonavala. It will leave you spellbound. The space gives you a fresh modern vibe with loads of coziness that's sophisticated and welcoming. The 6 master bedroom villa comes complete with a housekeeper, private swimming pool and an exceptional chef, all waiting to make your stay a memorable one.                    ",
+  },
+  {
+    id: 10,
+    content:
+      "Alpine Riverhill is the ideal retreat when in Lonavala. It will leave you spellbound. The space gives you a fresh modern vibe with loads of coziness that's sophisticated and welcoming. The 6 master bedroom villa comes complete with a housekeeper, private swimming pool and an exceptional chef, all waiting to make your stay a memorable one.                    ",
+  },
+  {
+    id: 11,
+    content:
+      "Luxury at its peak. Went with friends to celebrate a birthday. Extremely courteous staff and management. The rooms area really clean and the food is just spectacular. We also did a barbecue there by the poolside and the food was so good. The pool was really clean and so was the bungalow. Definitely recommend going to this place!   ",
   },
 ];
