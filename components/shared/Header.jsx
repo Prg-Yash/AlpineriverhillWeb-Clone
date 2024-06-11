@@ -35,7 +35,7 @@ const Header = () => {
         boxShadow: isScrolled ? '0 2px 10px rgba(0, 0, 0, 0.1)' : 'none',
       }}
     >
-      <div className="container flex justify-between gap-20 items-center transition-all duration-300 ease-in-out">
+      <div className="container flex justify-between items-center transition-all duration-300 ease-in-out">
         <Link href="/" className="flex items-center">
           <Image
             src="/logo.png"
@@ -48,8 +48,8 @@ const Header = () => {
             ALPINE RIVERHILL
           </h1>
         </Link>
-        <div className="lg:flex gap-1 items-center pr-0 hidden">
-          <Link href="/about" className="flex items-center p-2">
+        <div className="hidden lg:flex gap-1 items-center pr-0">
+          <Link href="/" className="flex items-center p-2">
             <FaHome className="mr-2 text-white text-lg w-[20px] h-5" />
             <h2 className="text-white font-medium">Home</h2>
           </Link>
@@ -59,7 +59,7 @@ const Header = () => {
           </Link>
           <Link href="/" className="flex items-center p-2">
             <FaVirus className="mr-2 text-white text-lg w-[20px] h-5 " />
-            <h2 className="text-white font-medium"> COVID-19 Safety Practices</h2>
+            <h2 className="text-white font-medium">COVID-19 Safety Practices</h2>
           </Link>
           <Link href="/about" className="flex items-center p-2">
             <FaCrown className="mr-2 text-white text-lg w-[20px] h-5 " />
@@ -67,7 +67,7 @@ const Header = () => {
           </Link>
           <Link href="/about" className="flex items-center p-2">
             <FaQuoteLeft className="mr-2 text-white text-lg w-[20px] h-5" />
-            <h2 className="text-white font-medium"> Testimonials</h2>
+            <h2 className="text-white font-medium">Testimonials</h2>
           </Link>
           <Link href="/about" className="flex items-center p-2">
             <FaInfoCircle className="mr-2 text-white text-lg w-[20px] h-5" />
@@ -75,7 +75,7 @@ const Header = () => {
           </Link>
           <Link href="/about" className="flex items-center p-2">
             <FaPhone className="mr-2 text-white text-lg w-[20px] h-5" />
-            <h2 className="text-white font-medium"> Contact-Us</h2>
+            <h2 className="text-white font-medium">Contact-Us</h2>
           </Link>
         </div>
         <div className="lg:hidden text-white items-center">
