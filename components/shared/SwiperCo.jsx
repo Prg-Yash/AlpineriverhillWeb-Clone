@@ -17,7 +17,7 @@ export default function Page() {
             }}
             pagination={{ clickable: true }}
             modules={[Navigation, Pagination]}
-            className="h-96 w-full rounded-lg flex items-center"
+            className="h-[640px] md:h-96 w-full rounded-lg flex items-center"
           >
             <SwiperSlide className="flex justify-center h-full">
               <div className="flex flex-col h-full justify-center px-4">

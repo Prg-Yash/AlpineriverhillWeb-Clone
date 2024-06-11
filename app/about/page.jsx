@@ -7,15 +7,17 @@ const AboutPage = () => {
       <h1 className="text-[#E8762B] text-[32px] text-center">ABOUT US</h1>
       <hr className="flex mx-auto w-[50%]" />
       <div className="md:flex gap-5  justify-center ">
-        <div className="mt-5  ">
-          <Image
-            src="/about1.jpg"
-            width={350}
-            height={350}
-            className="rounded-lg "
-          />
+        <div className="mt-5  flex justify-center">
+          <div>
+            <Image
+              src="/about1.jpg"
+              width={350}
+              height={350}
+              className="rounded-lg "
+            />
+          </div>
         </div>
-        <div className="flex-col  w-auto md:w-[760px] indent-[30px] text-[1.05rem] py-8">
+        <div className="flex-col  w-auto md:w-[760px] indent-[30px] text-[1.05rem] p-5">
           <p className=" mb-3 text-gray-800 dark:text-gray-400">
             Alpine Riverhill Villa is a modern & upscale vacation villa that is
             passionate about ‘making moments’ and recognising that small
